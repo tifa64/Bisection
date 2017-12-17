@@ -5,7 +5,7 @@
 ## How to run:
 * On Spyder:
     - Just run the file.
-    - Write `bisection(__parameter1__,__parameter2__,__parameter3__)`.
+    - Write `bisection(parameter1, parameter2, parameter3)`.
     
 ### To do:
 [ ] Print the information as a table at the end of the program [To begin](https://stackoverflow.com/questions/9535954/printing-lists-as-tabular-data/).
