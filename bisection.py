@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 # For more generic code
 def f(t):
-    return np.exp(-t) - t
+    return t**4 - 2*(t**3) - 4*(t**2) + 4
 
 # We plot each line in a different colour to distinguish them
 def plot(xu,xr,xl):
@@ -86,4 +86,4 @@ def bisection(xl, xu, es):
     return
 
 
-bisection(-2,4,0.01)
+bisection(-2,1,0.001)
