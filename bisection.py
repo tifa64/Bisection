@@ -84,6 +84,3 @@ def bisection(xl, xu, es):
     # Draw the table
     print(total.draw())
     return
-
-
-bisection(-2,1,0.001)
